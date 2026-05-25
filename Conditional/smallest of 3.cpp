@@ -15,14 +15,14 @@ int main (){
     cout << "C =  ";
     cin >> c;
 
-    if(a > b && a > c){   // greater than b & c
-        cout << "A is largest";
+    if(a < b && a < c){   // less than b & c
+        cout << "A is smallest";
 
-    }else if(b > a && b > c){    // greater than a & c
-        cout << "B is largest";
+    }else if(b < a && b < c){    // less than a & c
+        cout << "B is smallest";
 
     }else{
-        cout << "C is the largest";
+        cout << "C is the smallest";
     }
 
     return 0;
